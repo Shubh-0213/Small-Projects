@@ -21,7 +21,7 @@ if(isset($_POST['submit'])){
     }
   }
   else{
-    echo "<script>alert('Email not registered!'); window.location.href='../login.php'</script>";
+    echo "<script>alert('Email not registered!'); window.location.href='../login.php' </script>";
   }
     
 }
